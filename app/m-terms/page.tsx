@@ -29,7 +29,7 @@ export default function TermsOfServicePage() {
                 1. Acceptance of Terms
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Welcome to Message Alarm – Notification Alerts (&quot;the App&quot;), developed and operated by Quikzyn, operated by Tawhid Islam (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). By downloading, installing, accessing, or using the App, you (&quot;User,&quot; &quot;you,&quot; or &quot;your&quot;) agree to be bound by these Terms of Service (&quot;Terms&quot;). If you do not agree to these Terms, please do not use the App.
+                Welcome to Message Alarm – Notification Alerts (&quot;the App&quot;), developed by Tawhid Islam under the brand name Quikzyn (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). By downloading, installing, accessing, or using the App, you (&quot;User,&quot; &quot;you,&quot; or &quot;your&quot;) agree to be bound by these Terms of Service (&quot;Terms&quot;). If you do not agree to these Terms, please do not use the App.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 These Terms constitute a legally binding agreement between you and Quikzyn regarding your use of the App. We reserve the right to modify these Terms at any time, and such modifications will be effective immediately upon posting. Your continued use of the App after any changes indicates your acceptance of the updated Terms.
@@ -177,7 +177,7 @@ export default function TermsOfServicePage() {
                 9. Indemnification
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                You agree to defend, indemnify, and hold harmless Quikzyn, its officers, directors, employees, agents, and affiliates from and against any and all claims, damages, obligations, losses, liabilities, costs, and expenses (including but not limited to attorney&apos;s fees) arising from: (a) your use of the App; (b) your violation of these Terms; (c) your violation of any third-party rights, including without limitation any intellectual property right, publicity, confidentiality, property, or privacy right; or (d) any claim that your use of the App caused damage to a third party.
+                You agree to defend, indemnify, and hold harmless Quikzyn (Tawhid Islam) and its affiliates from and against any and all claims, damages, obligations, losses, liabilities, costs, and expenses (including but not limited to attorney&apos;s fees) arising from: (a) your use of the App; (b) your violation of these Terms; (c) your violation of any third-party rights, including without limitation any intellectual property right, publicity, confidentiality, property, or privacy right; or (d) any claim that your use of the App caused damage to a third party.
               </p>
             </section>
 
@@ -253,7 +253,7 @@ export default function TermsOfServicePage() {
               </p>
               <ul className="list-none space-y-2 text-gray-600">
                 <li>
-                  <strong className="text-navy-900">Company:</strong> Quikzyn
+                  <strong className="text-navy-900">Developer:</strong> Quikzyn (Tawhid Islam)
                 </li>
                 <li>
                   <strong className="text-navy-900">Operated by:</strong> Tawhid Islam

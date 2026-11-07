@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'notification sound',
     'quikzyn',
   ],
-  authors: [{ name: 'Quikzyn' }],
+  authors: [{ name: 'Tawhid Islam' }],
   openGraph: {
     title: 'Message Alarm – Notification Alerts by Quikzyn',
     description:

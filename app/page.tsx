@@ -173,25 +173,18 @@ export default function HomePage() {
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary-400 opacity-75" />
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-primary-500" />
                 </span>
-                Now available on Google Play
+                Coming soon on Google Play
               </div>
             </ScrollReveal>
 
             {/* App Icon */}
             <ScrollReveal delay={100}>
-              <div className="mx-auto mb-8 flex h-24 w-24 items-center justify-center rounded-3xl bg-gradient-to-br from-primary-600 to-primary-500 shadow-2xl shadow-primary-600/30 sm:h-28 sm:w-28">
-                <svg
-                  className="h-12 w-12 text-white sm:h-14 sm:w-14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
-                  <path d="M13.73 21a2 2 0 0 1-3.46 0" />
-                </svg>
+              <div className="mx-auto mb-8 h-24 w-24 overflow-hidden rounded-3xl shadow-2xl shadow-primary-600/30 sm:h-28 sm:w-28">
+                <img
+                  src="/app-icon.png"
+                  alt="Message Alarm"
+                  className="h-full w-full object-cover"
+                />
               </div>
             </ScrollReveal>
 
@@ -229,7 +222,7 @@ export default function HomePage() {
                   >
                     <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
                   </svg>
-                  Download on Google Play
+                  Get it on Google Play
                 </a>
                 <a href="#features" className="btn-secondary !px-8 !py-4 !text-base">
                   Learn More
@@ -385,28 +378,21 @@ export default function HomePage() {
               </div>
 
               <div className="relative z-10">
-                <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-primary-500 to-primary-600 shadow-lg shadow-primary-500/30">
-                  <svg
-                    className="h-8 w-8 text-white"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
-                    <path d="M13.73 21a2 2 0 0 1-3.46 0" />
-                  </svg>
+                <div className="mx-auto mb-6 h-16 w-16 overflow-hidden rounded-2xl shadow-lg shadow-primary-500/30">
+                  <img
+                    src="/app-icon.png"
+                    alt="Message Alarm"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
                 <h2 className="text-3xl font-bold text-white sm:text-4xl">
                   Ready to never miss a notification?
                 </h2>
                 <p className="mx-auto mt-4 max-w-xl text-lg text-gray-400">
-                  Download Message Alarm today and set up your first rule in
+                  Message Alarm is coming soon to Google Play. Be the first to try it — set up your first rule in
                   under 60 seconds. Free to use, no account required.
                 </p>
-                <div className="mt-8">
+                <div className="mt-8 flex flex-col items-center gap-3">
                   <a
                     href={PLAY_STORE_URL}
                     target="_blank"
@@ -420,8 +406,9 @@ export default function HomePage() {
                     >
                       <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
                     </svg>
-                    Download on Google Play
+                    Get it on Google Play
                   </a>
+                  <p className="text-sm text-gray-500">Coming soon — stay tuned!</p>
                 </div>
               </div>
             </div>

@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
                 Introduction
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Quikzyn, operated by Tawhid Islam (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), is committed to protecting your privacy. This Privacy Policy explains how Message Alarm – Notification Alerts (&quot;the App&quot;) handles information when you use our Android application.
+                Tawhid Islam, operating under the brand name Quikzyn (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), is committed to protecting your privacy. This Privacy Policy explains how Message Alarm – Notification Alerts (&quot;the App&quot;) handles information when you use our Android application.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
                 We designed Message Alarm with a privacy-first approach. The App processes all notification data entirely on your device. No personal data is collected, stored on external servers, or transmitted to us or any third parties. Your privacy is not just a feature — it is a core principle of how the App is built.
@@ -250,7 +250,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <ul className="list-none space-y-2 text-gray-600">
                 <li>
-                  <strong className="text-navy-900">Company:</strong> Quikzyn
+                  <strong className="text-navy-900">Developer:</strong> Quikzyn (Tawhid Islam)
                 </li>
                 <li>
                   <strong className="text-navy-900">Operated by:</strong> Tawhid Islam

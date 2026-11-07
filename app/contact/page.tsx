@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 export const metadata: Metadata = {
   title: 'Contact Us — Quikzyn',
   description:
-    'Get in touch with the Quikzyn team. Contact us for support, feedback, or general inquiries about Message Alarm.',
+    'Get in touch with Tawhid Islam, the developer behind Quikzyn and Message Alarm. Contact us for support, feedback, or general inquiries.',
 };
 
 export default function ContactPage() {

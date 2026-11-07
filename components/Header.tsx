@@ -34,20 +34,11 @@ export default function Header() {
         <nav className="flex h-16 items-center justify-between sm:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-primary-600 to-primary-500 shadow-md shadow-primary-600/20 transition-transform duration-200 group-hover:scale-105">
-              <svg
-                className="h-5 w-5 text-white"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
-                <path d="M13.73 21a2 2 0 0 1-3.46 0" />
-              </svg>
-            </div>
+            <img
+              src="/logo.png"
+              alt="Quikzyn"
+              className="h-9 w-9 rounded-xl shadow-md transition-transform duration-200 group-hover:scale-105"
+            />
             <span className="text-xl font-bold tracking-tight text-navy-900">
               Quikzyn
             </span>
